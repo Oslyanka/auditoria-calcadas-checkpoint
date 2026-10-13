@@ -112,7 +112,7 @@ btnTheme.addEventListener('click', () => {
 
 // ─────────────────────────────────────────────────────────
 
-inf.setConf(0.35);
+inf.setConf(0.50);  // confianca inicial mais alta: corta deteccoes espurias de baixa confianca
 inf.setIou(0.45);
 updateConfDisplay();
 updateIouDisplay();
