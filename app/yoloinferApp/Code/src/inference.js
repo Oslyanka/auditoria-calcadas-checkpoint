@@ -56,7 +56,8 @@ export async function loadModel(overridePath) {
   ort.env.wasm.numThreads = 1;
   ort.env.wasm.simd = true;
   customPath = overridePath || null;
-  const modelPath = overridePath || '/models/yolov8n.onnx';
+  // padrao do projeto: carrega o modelo da calcada (192x192) quando nenhum caminho e passado
+  const modelPath = overridePath || '/models/calcada_192.onnx';
   
   const providers = ['wasm'];
   

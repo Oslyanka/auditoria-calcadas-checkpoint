@@ -595,9 +595,9 @@ async function init() {
   } catch (e) {
     loader.hidden = false;
     errorScreen.hidden = false;
-    errorMsg.textContent = 'Model not found at /models/yolov8n.onnx. ' +
-      'Upload a YOLOv8 .onnx model using the "Model" button. ' +
-      'Expected: input [1,3,192,192], output [1,84,756]. ' +
+    errorMsg.textContent = 'Modelo não encontrado em /models/calcada_192.onnx. ' +
+      'Carregue um modelo YOLOv8 .onnx pelo botão "Model". ' +
+      'Esperado: entrada [1,3,192,192], saída [1,7,756]. ' +
       e.message;
     fpsBadge.hidden = true;
     modelBadge.textContent = 'No Model';
