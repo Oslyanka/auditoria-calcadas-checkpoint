@@ -1,0 +1,11 @@
+# Dataset CPZÃO - Auditoria de Calçadas (gerado por src/build_dataset.py)
+# IMPORTANTE: rode os comandos a partir da raiz do repositório (path é relativo ao cwd)
+path: data/dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 3
+names:
+  0: buraco_trinca
+  1: piso_tatil
+  2: obstaculo

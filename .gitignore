@@ -1,0 +1,29 @@
+# dados brutos e caches (gerados por src/download_sources.py)
+_scratch/
+
+# saídas de treino (figuras e métricas relevantes ficam em docs/)
+runs/
+yolov8n.pt
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# app
+app/yoloinferApp/Code/node_modules/
+app/yoloinferApp/.git/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# entregas
+*.zip
+
+# extras
+weights/
+*.bak
+yolov8n_zip.pt

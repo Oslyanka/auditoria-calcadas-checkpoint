@@ -1,0 +1,64 @@
+{
+  "imgsz_train": 320,
+  "epochs": 100,
+  "weights": "runs\\calcada_v2\\weights\\best.pt",
+  "val@320": {
+    "mAP50": 0.4216,
+    "mAP50-95": 0.2018,
+    "precision": 0.4295,
+    "recall": 0.5406,
+    "per_class_map50": {
+      "buraco_trinca": 0.3873,
+      "piso_tatil": 0.4539,
+      "obstaculo": 0.4236
+    },
+    "per_class_ap50_95": {
+      "buraco_trinca": 0.195,
+      "piso_tatil": 0.2715,
+      "obstaculo": 0.1389
+    }
+  },
+  "test@320": {
+    "mAP50": 0.2842,
+    "mAP50-95": 0.158,
+    "precision": 0.7854,
+    "recall": 0.224,
+    "per_class_map50": {
+      "buraco_trinca": 0.3473,
+      "piso_tatil": 0.3102,
+      "obstaculo": 0.195
+    },
+    "per_class_ap50_95": {
+      "buraco_trinca": 0.2437,
+      "piso_tatil": 0.1133,
+      "obstaculo": 0.117
+    }
+  },
+  "val@192": {
+    "mAP50": 0.471,
+    "mAP50-95": 0.2332,
+    "precision": 0.6798,
+    "recall": 0.4342,
+    "per_class_map50": {
+      "buraco_trinca": 0.3677,
+      "piso_tatil": 0.4805,
+      "obstaculo": 0.5647
+    }
+  },
+  "test@192": {
+    "mAP50": 0.339,
+    "mAP50-95": 0.1591,
+    "precision": 0.4945,
+    "recall": 0.3387,
+    "per_class_map50": {
+      "buraco_trinca": 0.4603,
+      "piso_tatil": 0.295,
+      "obstaculo": 0.2617
+    }
+  },
+  "exports": {
+    "onnx_192": "models\\calcada_192.onnx",
+    "onnx_320": "models\\calcada_320.onnx",
+    "tflite": "não exportado (AssertionError: LiteRT export only supported on Linux x86 and macOS) — app usa ONNX Runtime Web"
+  }
+}

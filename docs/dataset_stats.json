@@ -1,0 +1,747 @@
+{
+  "stats": {
+    "classes": {
+      "buraco_trinca": {
+        "imagens": 34,
+        "instancias": 90,
+        "por_split": {
+          "train": 24,
+          "val": 7,
+          "test": 3
+        }
+      },
+      "piso_tatil": {
+        "imagens": 33,
+        "instancias": 43,
+        "por_split": {
+          "train": 23,
+          "val": 7,
+          "test": 3
+        }
+      },
+      "obstaculo": {
+        "imagens": 33,
+        "instancias": 41,
+        "por_split": {
+          "train": 23,
+          "val": 6,
+          "test": 4
+        }
+      }
+    },
+    "splits": {
+      "train": 70,
+      "val": 20,
+      "test": 10
+    },
+    "sources": {
+      "Ryukijano/pothole": 34,
+      "qweawq/blind-road": 33,
+      "Abtinzandi/ROD": 33
+    },
+    "total_imagens": 100,
+    "total_instancias": 174
+  },
+  "index": [
+    {
+      "file": "images/train/buraco_001.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 2,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_002.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_003.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_004.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_005.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 2,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_006.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_007.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 4,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_008.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 4,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_009.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_010.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 8,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_011.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 2,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_012.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 9,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_013.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 4,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_014.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 5,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_015.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_016.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_017.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 4,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_018.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 3,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_019.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 2,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_020.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 2,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_021.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 2,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_022.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 6,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_023.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/buraco_024.jpg",
+      "class": "buraco_trinca",
+      "split": "train",
+      "boxes": 5,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/val/buraco_025.jpg",
+      "class": "buraco_trinca",
+      "split": "val",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/val/buraco_026.jpg",
+      "class": "buraco_trinca",
+      "split": "val",
+      "boxes": 2,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/val/buraco_027.jpg",
+      "class": "buraco_trinca",
+      "split": "val",
+      "boxes": 2,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/val/buraco_028.jpg",
+      "class": "buraco_trinca",
+      "split": "val",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/val/buraco_029.jpg",
+      "class": "buraco_trinca",
+      "split": "val",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/val/buraco_030.jpg",
+      "class": "buraco_trinca",
+      "split": "val",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/val/buraco_031.jpg",
+      "class": "buraco_trinca",
+      "split": "val",
+      "boxes": 3,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/test/buraco_032.jpg",
+      "class": "buraco_trinca",
+      "split": "test",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/test/buraco_033.jpg",
+      "class": "buraco_trinca",
+      "split": "test",
+      "boxes": 1,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/test/buraco_034.jpg",
+      "class": "buraco_trinca",
+      "split": "test",
+      "boxes": 5,
+      "source": "Ryukijano/pothole"
+    },
+    {
+      "file": "images/train/piso_001.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 2,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_002.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_003.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_004.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_005.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_006.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_007.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_008.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_009.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_010.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_011.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_012.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_013.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 2,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_014.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_015.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_016.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_017.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_018.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 2,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_019.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_020.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_021.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 2,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_022.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/piso_023.jpg",
+      "class": "piso_tatil",
+      "split": "train",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/val/piso_024.jpg",
+      "class": "piso_tatil",
+      "split": "val",
+      "boxes": 2,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/val/piso_025.jpg",
+      "class": "piso_tatil",
+      "split": "val",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/val/piso_026.jpg",
+      "class": "piso_tatil",
+      "split": "val",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/val/piso_027.jpg",
+      "class": "piso_tatil",
+      "split": "val",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/val/piso_028.jpg",
+      "class": "piso_tatil",
+      "split": "val",
+      "boxes": 2,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/val/piso_029.jpg",
+      "class": "piso_tatil",
+      "split": "val",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/val/piso_030.jpg",
+      "class": "piso_tatil",
+      "split": "val",
+      "boxes": 3,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/test/piso_031.jpg",
+      "class": "piso_tatil",
+      "split": "test",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/test/piso_032.jpg",
+      "class": "piso_tatil",
+      "split": "test",
+      "boxes": 1,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/test/piso_033.jpg",
+      "class": "piso_tatil",
+      "split": "test",
+      "boxes": 3,
+      "source": "qweawq/blind-road"
+    },
+    {
+      "file": "images/train/obst_001.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_002.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_003.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_004.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_005.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_006.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_007.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_008.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_009.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_010.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_011.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_012.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_013.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_014.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_015.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_016.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_017.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_018.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_019.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_020.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 2,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_021.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_022.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 2,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/train/obst_023.jpg",
+      "class": "obstaculo",
+      "split": "train",
+      "boxes": 2,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/val/obst_024.jpg",
+      "class": "obstaculo",
+      "split": "val",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/val/obst_025.jpg",
+      "class": "obstaculo",
+      "split": "val",
+      "boxes": 3,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/val/obst_026.jpg",
+      "class": "obstaculo",
+      "split": "val",
+      "boxes": 3,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/val/obst_027.jpg",
+      "class": "obstaculo",
+      "split": "val",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/val/obst_028.jpg",
+      "class": "obstaculo",
+      "split": "val",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/val/obst_029.jpg",
+      "class": "obstaculo",
+      "split": "val",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/test/obst_030.jpg",
+      "class": "obstaculo",
+      "split": "test",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/test/obst_031.jpg",
+      "class": "obstaculo",
+      "split": "test",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/test/obst_032.jpg",
+      "class": "obstaculo",
+      "split": "test",
+      "boxes": 1,
+      "source": "Abtinzandi/ROD"
+    },
+    {
+      "file": "images/test/obst_033.jpg",
+      "class": "obstaculo",
+      "split": "test",
+      "boxes": 2,
+      "source": "Abtinzandi/ROD"
+    }
+  ]
+}

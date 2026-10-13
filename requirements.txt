@@ -1,0 +1,15 @@
+# CPZÃO — Auditoria de Calçadas
+# Python 3.10+ (testado em 3.14)
+ultralytics>=8.3
+torch>=2.2
+torchvision>=0.17
+opencv-python>=4.9
+numpy>=1.26
+Pillow>=10.0
+pyyaml>=6.0
+matplotlib>=3.8
+pandas>=2.0
+huggingface_hub>=0.23
+# Exportação TFLite (opcional; o app usa ONNX Runtime Web)
+# onnx
+# onnx2tf
