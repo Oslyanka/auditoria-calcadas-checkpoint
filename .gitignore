@@ -27,3 +27,7 @@ Thumbs.db
 weights/
 *.bak
 yolov8n_zip.pt
+
+_backup_modelo_320/
+data/dataset_filtered/
+para_imprimir/
