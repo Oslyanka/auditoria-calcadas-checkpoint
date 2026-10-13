@@ -1,4 +1,4 @@
-# Auditoria de Calçadas — CPZÃO (CP2 + CP3)
+# Auditoria de Calçadas — Checkpoint 2 & 3 (CP2 + CP3)
 
 > **Checkpoint integrado de Visão Computacional** — detecção de defeitos, obstáculos e
 > elementos de acessibilidade em calçadas com **YOLOv8n**, do dataset até a inferência em
